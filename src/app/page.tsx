@@ -89,9 +89,9 @@ export default function Home() {
           {/* RIGHT: HERO CONTENT & METRICS GRID */}
           <div className="lg:col-span-8 flex flex-col justify-center text-center lg:text-left">
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ ...transitionConfig, delay: 0.2 }}>
-              <h1 className="text-5xl md:text-[8rem] font-light italic tracking-tighter mb-10 leading-none text-white">
-                Transforming Ideas <br /> 
-                into <span className="text-emerald-500 not-italic">Reality.</span>
+              <h1 className="text-5xl md:text-[8rem] font-light tracking-tighter mb-10 leading-none text-white">
+                Aditya Patel <br /> 
+               <span className="text-emerald-500 not-italic">Portfolio</span>
               </h1>
               <p className="max-w-2xl text-slate-400 text-lg md:text-xl font-serif italic mb-16 mx-auto lg:mx-0 leading-relaxed">
                 "{syncData.bioSnippet || "Crafting high-scale systems with technical rigor."}"
@@ -101,22 +101,22 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-20 mb-20 max-w-5xl border-y border-white/5 py-16">
                 <div className="flex flex-col items-center lg:items-start space-y-2">
                   <span className="text-6xl md:text-7xl font-light italic tracking-tighter text-white underline decoration-emerald-500/20 underline-offset-8">
-                    +3.91
+                    3.91
                   </span>
                   <span className="text-[10px] uppercase tracking-[0.4em] text-emerald-500 font-black">
-                    WPI- Computer Science, GPA
+                    Computer Science
                   </span>
                 </div>
                 <div className="flex flex-col items-center lg:items-start space-y-2">
-                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter text-white uppercase leading-none">
-                    FIDELITY
+                  <span className="text-5xl md:text-6xl font-light tracking-tighter text-white leading-none">
+                    Fidelity
                   </span>
                   <span className="text-[10px] uppercase tracking-[0.4em] text-slate-500 font-black">
                     Incoming Intern
                   </span>
                 </div>
                 <div className="flex flex-col items-center lg:items-start space-y-2">
-                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter text-white uppercase leading-none">
+                  <span className="text-5xl md:text-6xl font-light tracking-tighter text-white leading-none">
                     SASA
                   </span>
                   <span className="text-[10px] uppercase tracking-[0.4em] text-slate-500 font-black">

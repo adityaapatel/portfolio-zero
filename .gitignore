@@ -40,3 +40,10 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Scraping and Data
+content/raw_scrape.txt
+state.json
+
+# Personal Documents
+*.pdf

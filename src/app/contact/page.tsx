@@ -17,7 +17,7 @@ export default function Contact() {
           <Mail className="w-8 h-8 text-slate-700 group-hover:text-emerald-500 transition-colors" />
           <div>
             <p className="text-[10px] uppercase tracking-[0.4em] text-slate-600 mb-2">Email Me</p>
-            <h2 className="text-3xl font-serif italic text-white flex items-center gap-2">aditya.patel@wpi.edu <ArrowUpRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-all" /></h2>
+            <h2 className="text-3xl font-serif italic text-white flex items-center gap-2">aapatel@wpi.edu <ArrowUpRight className="w-5 h-5 opacity-0 group-hover:opacity-100 transition-all" /></h2>
           </div>
         </a>
 

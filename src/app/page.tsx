@@ -6,7 +6,6 @@ import portfolioDataImport from '../../content/portfolio.json';
 import { ArrowRight, Sparkles, MapPin, Mail, Github, Code2, ChevronDown } from 'lucide-react';
 import Starfield from '@/components/Starfield';
 
-// Interfaces for strict data handling
 interface SyncData {
   status: string;
   bioSnippet: string;
@@ -18,6 +17,7 @@ interface SyncData {
     duration: string; 
   }[];
 }
+
 interface Project {
   title: string;
   tech: string;
@@ -31,16 +31,16 @@ export default function Home() {
   const transitionConfig = { duration: 1.2, ease: [0.22, 1, 0.36, 1] as const };
 
   return (
-    <main className="bg-[#0a0a0a] text-white selection:bg-emerald-500/30">
+    <main className="bg-[#0a0a0a] text-white overflow-x-hidden">
       <Starfield />
 
       {/* SECTION 1: HERO & IDENTITY */}
-      <section className="min-h-screen flex items-center justify-center p-6 md:p-24 relative overflow-hidden">
+      <section id="home" className="min-h-screen flex items-center justify-center p-6 md:p-24 relative overflow-hidden">
         <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_20%_30%,rgba(16,185,129,0.06),transparent_70%)]" />
         
         <div className="relative z-10 w-full max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
           
-          {/* Left: Identity Card */}
+          {/* LEFT: IDENTITY CARD */}
           <motion.div 
             initial={{ opacity: 0, x: -50 }} 
             animate={{ opacity: 1, x: 0 }} 
@@ -55,14 +55,14 @@ export default function Home() {
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
                 />
               </div>
-              <h2 className="text-4xl font-light italic tracking-tight">Aditya Patel</h2>
+              <h2 className="text-4xl font-light italic tracking-tight text-white">Aditya Patel</h2>
               <p className="text-emerald-500 text-[10px] uppercase tracking-[0.3em] font-black mt-2">
                 Software Engineering Intern
               </p>
               
               <div className="pt-8 flex flex-col gap-5 border-t border-white/5 mt-6">
-                <div className="flex items-center gap-3 text-slate-500 text-[10px] uppercase font-bold tracking-widest">
-                  <MapPin className="w-4 h-4 text-emerald-500" /> Worcester, MA // USA
+                <div className="flex items-center justify-center lg:justify-start gap-3 text-slate-500 text-[10px] uppercase font-bold tracking-widest">
+                  <MapPin className="w-4 h-4 text-emerald-500" /> Worcester, Massachusetts
                 </div>
                 
                 <div className="flex justify-between items-center pt-4">
@@ -70,7 +70,7 @@ export default function Home() {
                       <a href="https://github.com/adityaapatel" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                         <Github className="w-5 h-5" />
                       </a>
-                      <a href="mailto:apatel11@wpi.edu" className="hover:text-white transition-colors">
+                      <a href="mailto:aapatel@wpi.edu" className="hover:text-white transition-colors">
                         <Mail className="w-5 h-5" />
                       </a>
                    </div>
@@ -86,36 +86,37 @@ export default function Home() {
             </div>
           </motion.div>
 
-          {/* Right: Hero Content & Prestige Metrics */}
+          {/* RIGHT: HERO CONTENT & METRICS GRID */}
           <div className="lg:col-span-8 flex flex-col justify-center text-center lg:text-left">
             <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ ...transitionConfig, delay: 0.2 }}>
-              <h1 className="text-5xl md:text-8xl font-light italic tracking-tighter mb-10 leading-none">
+              <h1 className="text-5xl md:text-[8rem] font-light italic tracking-tighter mb-10 leading-none text-white">
                 Transforming Ideas <br /> 
                 into <span className="text-emerald-500 not-italic">Reality.</span>
               </h1>
-              <p className="max-w-2xl text-slate-400 text-lg md:text-xl font-serif italic mb-16 mx-auto lg:mx-0">
+              <p className="max-w-2xl text-slate-400 text-lg md:text-xl font-serif italic mb-16 mx-auto lg:mx-0 leading-relaxed">
                 "{syncData.bioSnippet || "Crafting high-scale systems with technical rigor."}"
               </p>
               
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 mb-20 max-w-4xl border-y border-white/5 py-16">
-                <div className="flex flex-col items-center lg:items-start">
-                  <span className="text-6xl md:text-7xl font-light italic tracking-tighter block mb-2 underline decoration-emerald-500/20 underline-offset-8">
+              {/* FIXED METRICS: Increased gap to prevent overlap */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 lg:gap-20 mb-20 max-w-5xl border-y border-white/5 py-16">
+                <div className="flex flex-col items-center lg:items-start space-y-2">
+                  <span className="text-6xl md:text-7xl font-light italic tracking-tighter text-white underline decoration-emerald-500/20 underline-offset-8">
                     +3.91
                   </span>
                   <span className="text-[10px] uppercase tracking-[0.4em] text-emerald-500 font-black">
-                    WPI CS GPA
+                    WPI- Computer Science, GPA
                   </span>
                 </div>
-                <div className="flex flex-col items-center lg:items-start">
-                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter block mb-2 leading-tight">
+                <div className="flex flex-col items-center lg:items-start space-y-2">
+                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter text-white uppercase leading-none">
                     FIDELITY
                   </span>
                   <span className="text-[10px] uppercase tracking-[0.4em] text-slate-500 font-black">
                     Incoming Intern
                   </span>
                 </div>
-                <div className="flex flex-col items-center lg:items-start">
-                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter block mb-2 uppercase">
+                <div className="flex flex-col items-center lg:items-start space-y-2">
+                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter text-white uppercase leading-none">
                     SASA
                   </span>
                   <span className="text-[10px] uppercase tracking-[0.4em] text-slate-500 font-black">
@@ -133,16 +134,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SECTION 2: SELECTED PROJECTS */}
-      <section id="projects" className="py-40 px-6 max-w-7xl mx-auto border-t border-white/5">
+      {/* SECTION 2: PROJECTS */}
+      <section id="projects" className="py-40 px-6 max-w-7xl mx-auto border-t border-white/5 relative z-10">
         <h2 className="text-7xl font-light italic mb-24 tracking-tighter text-white">Selected Works.</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.slice(0, 4).map((project, i) => (
-            <motion.div key={i} whileHover={{ y: -10 }} className="bg-[#0d0d0d] border border-white/5 rounded-[2.5rem] p-12 hover:border-emerald-500/30 transition-all shadow-2xl">
+            <motion.div 
+              key={i} 
+              whileHover={{ y: -10 }} 
+              className="bg-[#0d0d0d] border border-white/5 rounded-[2.5rem] p-12 hover:border-emerald-500/30 transition-all shadow-2xl"
+            >
                <div className="flex justify-between items-start mb-8">
                   <div className="flex gap-2">
                     {project.tech.split('/').map((t, idx) => (
-                      <span key={idx} className="text-[9px] uppercase tracking-widest text-emerald-500 bg-emerald-500/5 border border-emerald-500/10 px-3 py-1 rounded">
+                      <span key={idx} className="text-[9px] uppercase tracking-widest text-emerald-400 bg-emerald-500/5 border border-emerald-500/10 px-3 py-1 rounded">
                         {t.trim()}
                       </span>
                     ))}
@@ -161,12 +166,12 @@ export default function Home() {
       </section>
 
       {/* SECTION 3: TRAJECTORY */}
-      <section id="trajectory" className="py-40 px-6 max-w-5xl mx-auto border-t border-white/5">
+      <section id="trajectory" className="py-40 px-6 max-w-5xl mx-auto border-t border-white/5 relative z-10">
         <h2 className="text-7xl font-light italic mb-24 tracking-tighter text-white">Trajectory.</h2>
         <div className="relative border-l border-white/5 ml-10 space-y-20">
           {syncData.experience?.map((exp, i) => (
             <div key={i} className="relative pl-20 group">
-              <div className="absolute -left-[22px] top-0 w-11 h-11 rounded-full bg-white border border-slate-900 flex items-center justify-center z-10 p-1.5 transition-transform group-hover:scale-110">
+              <div className="absolute -left-[22px] top-0 w-11 h-11 rounded-full bg-white border border-slate-900 flex items-center justify-center z-10 p-1.5 transition-transform group-hover:scale-110 shadow-xl">
                 <img 
                   src={`https://img.logo.dev/${exp.domain}?token=${process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN}`} 
                   alt={exp.company} 

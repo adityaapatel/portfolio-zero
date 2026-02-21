@@ -1,115 +1,190 @@
 'use client';
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import syncDataImport from '../../content/linkedin_sync.json';
+import portfolioDataImport from '../../content/portfolio.json';
+import { ArrowRight, Sparkles, MapPin, Mail, Github, Code2, ChevronDown } from 'lucide-react';
+import Starfield from '@/components/Starfield';
 
-// Data Imports
-import portfolioData from '../../content/portfolio.json';
-import syncData from '../../content/linkedin_sync.json';
+// Interfaces for strict data handling
+interface SyncData {
+  status: string;
+  bioSnippet: string;
+  experience: { 
+    company: string; 
+    role: string; 
+    domain: string; 
+    description: string; 
+    duration: string; 
+  }[];
+}
+interface Project {
+  title: string;
+  tech: string;
+  bulletPoints: string[];
+}
+
+const syncData = (syncDataImport as unknown) as SyncData;
+const projects = (portfolioDataImport as unknown) as Project[];
 
 export default function Home() {
-  const [mounted, setMounted] = useState(false);
-
-  // Prevention of Hydration Mismatch
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) return null;
+  const transitionConfig = { duration: 1.2, ease: [0.22, 1, 0.36, 1] as const };
 
   return (
-    <main className="min-h-screen bg-[#030303] text-white font-mono selection:bg-cyan-500/30 overflow-x-hidden">
-      
-      {/* 1. Dynamic Ambient Background */}
-      <div className="fixed inset-0 z-0 opacity-30 pointer-events-none">
-        <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-cyan-900/20 rounded-full blur-[120px]" />
-        <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-900/20 rounded-full blur-[120px]" />
-      </div>
+    <main className="bg-[#0a0a0a] text-white selection:bg-emerald-500/30">
+      <Starfield />
 
-      <div className="relative z-10 max-w-7xl mx-auto px-6 py-20">
+      {/* SECTION 1: HERO & IDENTITY */}
+      <section className="min-h-screen flex items-center justify-center p-6 md:p-24 relative overflow-hidden">
+        <div className="absolute inset-0 z-0 bg-[radial-gradient(circle_at_20%_30%,rgba(16,185,129,0.06),transparent_70%)]" />
         
-        {/* 2. Live LinkedIn Pulse Component */}
-        <motion.div 
-          initial={{ opacity: 0, y: -20 }}
-          animate={{ opacity: 1, y: 0 }}
-          className="mb-12 inline-flex items-center gap-4 bg-cyan-500/5 border border-cyan-500/20 p-4 rounded-xl backdrop-blur-xl"
-        >
-          <div className="relative">
-            <div className="w-3 h-3 bg-cyan-500 rounded-full animate-ping" />
-            <div className="absolute inset-0 w-3 h-3 bg-cyan-500 rounded-full" />
-          </div>
-          <div className="flex flex-col">
-            <span className="text-[10px] text-cyan-500 font-bold tracking-[0.3em]">LIVE_LINKEDIN_PULSE</span>
-            <span className="text-sm text-gray-300 italic font-medium">
-              "{syncData.status || "Establishing connection..."}"
-            </span>
-          </div>
-        </motion.div>
-
-        {/* 3. Hero Section */}
-        <header className="mb-32">
-          <motion.div 
-            initial={{ opacity: 0, x: -20 }} 
-            animate={{ opacity: 1, x: 0 }}
-            className="flex items-center gap-3 mb-6"
-          >
-            <span className="h-[1px] w-12 bg-cyan-500" />
-            <span className="text-cyan-500 text-sm font-bold tracking-[0.2em]">SYSTEM_VERSION_3.1</span>
-          </motion.div>
+        <div className="relative z-10 w-full max-w-7xl grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-center">
           
-          <h1 className="text-7xl md:text-9xl font-black tracking-tighter mb-8 leading-none uppercase">
-            ARCHITECT<br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">ZERO.</span>
-          </h1>
-          <p className="text-xl text-gray-400 max-w-2xl leading-relaxed">
-            {syncData.bioSnippet || "Autonomous Portfolio Engine. Senior Platform Architect. Synthesizing code and AI into scalable digital organisms."}
-          </p>
-        </header>
-
-        {/* 4. The Agentic Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {portfolioData.map((item: any, idx: number) => (
-            <motion.div
-              key={idx}
-              whileHover={{ y: -10 }}
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: idx * 0.1 }}
-              className="group relative p-8 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-cyan-500/50 transition-all flex flex-col min-h-[350px]"
-            >
-              {/* Animated Top Border */}
-              <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-              
-              <div className="flex justify-between items-start mb-8">
-                <div className="text-[10px] text-gray-500 font-bold uppercase tracking-widest border border-white/10 px-2 py-1 rounded">
-                  {item.techStack}
-                </div>
-                <div className="text-cyan-500 text-xs font-bold tracking-widest">0{idx + 1}</div>
+          {/* Left: Identity Card */}
+          <motion.div 
+            initial={{ opacity: 0, x: -50 }} 
+            animate={{ opacity: 1, x: 0 }} 
+            transition={transitionConfig} 
+            className="lg:col-span-4 flex flex-col items-center lg:items-start"
+          >
+            <div className="w-full max-w-md bg-[#0d0d0d]/40 backdrop-blur-xl border border-white/5 rounded-[3rem] p-10 shadow-2xl group">
+              <div className="w-full aspect-[4/5] rounded-[2rem] overflow-hidden mb-8 border border-white/5 bg-slate-900 shadow-inner">
+                <img 
+                  src="/profile.png" 
+                  alt="Aditya Patel" 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" 
+                />
               </div>
-
-              <h3 className="text-3xl font-bold mb-4 group-hover:text-cyan-400 transition-colors">
-                {item.title}
-              </h3>
-              <p className="text-gray-400 text-sm leading-relaxed mb-8 flex-grow">
-                {item.description}
+              <h2 className="text-4xl font-light italic tracking-tight">Aditya Patel</h2>
+              <p className="text-emerald-500 text-[10px] uppercase tracking-[0.3em] font-black mt-2">
+                Software Engineering Intern
               </p>
-
-              <div className="flex items-center gap-3 mt-auto pt-6 border-t border-white/5">
-                <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
-                <span className="text-[10px] font-bold text-gray-300 uppercase tracking-wider">
-                  {item.impact}
-                </span>
+              
+              <div className="pt-8 flex flex-col gap-5 border-t border-white/5 mt-6">
+                <div className="flex items-center gap-3 text-slate-500 text-[10px] uppercase font-bold tracking-widest">
+                  <MapPin className="w-4 h-4 text-emerald-500" /> Worcester, MA // USA
+                </div>
+                
+                <div className="flex justify-between items-center pt-4">
+                   <div className="flex gap-5 text-slate-600">
+                      <a href="https://github.com/adityaapatel" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                        <Github className="w-5 h-5" />
+                      </a>
+                      <a href="mailto:apatel11@wpi.edu" className="hover:text-white transition-colors">
+                        <Mail className="w-5 h-5" />
+                      </a>
+                   </div>
+                   
+                   <Link 
+                    href="/contact" 
+                    className="px-8 py-3 bg-emerald-500 text-black text-[10px] font-black uppercase rounded-full hover:bg-white transition-all shadow-[0_0_20px_rgba(16,185,129,0.2)]"
+                   >
+                      Let's Talk
+                   </Link>
+                </div>
               </div>
+            </div>
+          </motion.div>
+
+          {/* Right: Hero Content & Prestige Metrics */}
+          <div className="lg:col-span-8 flex flex-col justify-center text-center lg:text-left">
+            <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ ...transitionConfig, delay: 0.2 }}>
+              <h1 className="text-5xl md:text-8xl font-light italic tracking-tighter mb-10 leading-none">
+                Transforming Ideas <br /> 
+                into <span className="text-emerald-500 not-italic">Reality.</span>
+              </h1>
+              <p className="max-w-2xl text-slate-400 text-lg md:text-xl font-serif italic mb-16 mx-auto lg:mx-0">
+                "{syncData.bioSnippet || "Crafting high-scale systems with technical rigor."}"
+              </p>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12 mb-20 max-w-4xl border-y border-white/5 py-16">
+                <div className="flex flex-col items-center lg:items-start">
+                  <span className="text-6xl md:text-7xl font-light italic tracking-tighter block mb-2 underline decoration-emerald-500/20 underline-offset-8">
+                    +3.91
+                  </span>
+                  <span className="text-[10px] uppercase tracking-[0.4em] text-emerald-500 font-black">
+                    WPI CS GPA
+                  </span>
+                </div>
+                <div className="flex flex-col items-center lg:items-start">
+                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter block mb-2 leading-tight">
+                    FIDELITY
+                  </span>
+                  <span className="text-[10px] uppercase tracking-[0.4em] text-slate-500 font-black">
+                    Incoming Intern
+                  </span>
+                </div>
+                <div className="flex flex-col items-center lg:items-start">
+                  <span className="text-5xl md:text-6xl font-light italic tracking-tighter block mb-2 uppercase">
+                    SASA
+                  </span>
+                  <span className="text-[10px] uppercase tracking-[0.4em] text-slate-500 font-black">
+                    President
+                  </span>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-slate-700 animate-bounce">
+          <span className="text-[8px] uppercase tracking-[0.5em] font-black">Scroll to Explore</span>
+          <ChevronDown className="w-4 h-4" />
+        </div>
+      </section>
+
+      {/* SECTION 2: SELECTED PROJECTS */}
+      <section id="projects" className="py-40 px-6 max-w-7xl mx-auto border-t border-white/5">
+        <h2 className="text-7xl font-light italic mb-24 tracking-tighter text-white">Selected Works.</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          {projects.slice(0, 4).map((project, i) => (
+            <motion.div key={i} whileHover={{ y: -10 }} className="bg-[#0d0d0d] border border-white/5 rounded-[2.5rem] p-12 hover:border-emerald-500/30 transition-all shadow-2xl">
+               <div className="flex justify-between items-start mb-8">
+                  <div className="flex gap-2">
+                    {project.tech.split('/').map((t, idx) => (
+                      <span key={idx} className="text-[9px] uppercase tracking-widest text-emerald-500 bg-emerald-500/5 border border-emerald-500/10 px-3 py-1 rounded">
+                        {t.trim()}
+                      </span>
+                    ))}
+                  </div>
+                  <Code2 className="w-5 h-5 text-slate-800" />
+               </div>
+               <h3 className="text-4xl font-light italic mb-6 text-white">{project.title}</h3>
+               <ul className="space-y-4 text-slate-400 font-serif italic text-base">
+                 {project.bulletPoints.map((point, idx) => (
+                   <li key={idx} className="flex gap-3"><span className="text-emerald-500/50">•</span>{point}</li>
+                 ))}
+               </ul>
             </motion.div>
           ))}
         </div>
+      </section>
 
-        {/* 5. Terminal Footer */}
-        <footer className="mt-32 border-t border-white/10 pt-10 text-center">
-          <span className="text-[10px] text-gray-600 tracking-[0.5em] uppercase">
-            Designed by Aditya Patel // Powered by Gemini 2.5 Flash
-          </span>
-        </footer>
-      </div>
+      {/* SECTION 3: TRAJECTORY */}
+      <section id="trajectory" className="py-40 px-6 max-w-5xl mx-auto border-t border-white/5">
+        <h2 className="text-7xl font-light italic mb-24 tracking-tighter text-white">Trajectory.</h2>
+        <div className="relative border-l border-white/5 ml-10 space-y-20">
+          {syncData.experience?.map((exp, i) => (
+            <div key={i} className="relative pl-20 group">
+              <div className="absolute -left-[22px] top-0 w-11 h-11 rounded-full bg-white border border-slate-900 flex items-center justify-center z-10 p-1.5 transition-transform group-hover:scale-110">
+                <img 
+                  src={`https://img.logo.dev/${exp.domain}?token=${process.env.NEXT_PUBLIC_LOGO_DEV_TOKEN}`} 
+                  alt={exp.company} 
+                  className="w-full h-full object-contain" 
+                />
+              </div>
+              <div className="bg-[#0d0d0d] border border-white/5 rounded-[2.5rem] p-10 hover:border-emerald-500/30 transition-all">
+                <h3 className="text-4xl font-light italic text-white">{exp.role}</h3>
+                <p className="text-slate-500 mb-6 uppercase tracking-widest text-[10px] mt-2 font-bold">{exp.company}</p>
+                <p className="text-slate-400 font-serif italic border-l-2 border-white/5 pl-6 leading-relaxed">
+                  {exp.description}
+                </p>
+                <span className="block mt-6 text-[9px] uppercase tracking-widest text-slate-700 font-black">{exp.duration}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
     </main>
   );
 }

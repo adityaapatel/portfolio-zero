@@ -1,32 +1,145 @@
 {
-  "status": "Incoming Software Engineering Intern at Fidelity Investments",
-  "bioSnippet": "Computer Science student at WPI with a 3.94 GPA and Charles O. Thompson Scholar, specializing in Agentic AI and FinTech. Incoming Software Engineering Intern at Fidelity Investments, passionate about building scalable SaaS solutions and driving financial innovation. Actively pursuing research at the National University of Singapore (NUS) and demonstrating strong leadership as the former President of the WPI South Asian Student Association, significantly enhancing its campus presence and impact. Possesses a robust technical foundation in full-stack development, machine learning, and operating systems.",
+  "status": "Incoming Software Engineering Intern @ Fidelity Investments (Summer 2026)",
   "skills": [
-    "Python",
-    "C",
-    "Java",
-    "SQL",
-    "Deep Learning",
-    "Machine Learning",
-    "Computer Vision",
-    "PyTorch",
-    "Flask",
-    "Operating Systems Concepts (Paging, Virtual Memory, CPU Scheduling)",
-    "Multi-Threading & Synchronization",
-    "Concurrency Control",
-    "Linux System Calls",
-    "PostgreSQL",
-    "AWS",
-    "Azure SSO",
-    "Object-Oriented Design",
-    "Data Structures & Algorithms",
-    "Agile Development"
+    {
+      "name": "C",
+      "slug": "c"
+    },
+    {
+      "name": "C#",
+      "slug": "csharp"
+    },
+    {
+      "name": "CSS3",
+      "slug": "css3"
+    },
+    {
+      "name": "HTML5",
+      "slug": "html5"
+    },
+    {
+      "name": "Java",
+      "slug": "openjdk"
+    },
+    {
+      "name": "PostgreSQL",
+      "slug": "postgresql"
+    },
+    {
+      "name": "Python",
+      "slug": "python"
+    },
+    {
+      "name": "Flask",
+      "slug": "flask"
+    },
+    {
+      "name": "Matplotlib",
+      "slug": "matplotlib"
+    },
+    {
+      "name": "NumPy",
+      "slug": "numpy"
+    },
+    {
+      "name": "PyTorch",
+      "slug": "pytorch"
+    },
+    {
+      "name": "Scikit-learn",
+      "slug": "scikitlearn"
+    },
+    {
+      "name": "Amazon Web Services",
+      "slug": "amazonaws"
+    },
+    {
+      "name": "Docker",
+      "slug": "docker"
+    },
+    {
+      "name": "Git",
+      "slug": "git"
+    },
+    {
+      "name": "Linux",
+      "slug": "linux"
+    },
+    {
+      "name": "Microsoft Azure",
+      "slug": "microsoftazure"
+    },
+    {
+      "name": "Agile Methodologies",
+      "slug": ""
+    },
+    {
+      "name": "Artificial Intelligence",
+      "slug": ""
+    },
+    {
+      "name": "Computer Vision",
+      "slug": ""
+    },
+    {
+      "name": "Customer Service",
+      "slug": ""
+    },
+    {
+      "name": "Deep Learning",
+      "slug": ""
+    },
+    {
+      "name": "Machine Learning",
+      "slug": ""
+    },
+    {
+      "name": "Marketing",
+      "slug": ""
+    },
+    {
+      "name": "Object-Oriented Programming",
+      "slug": ""
+    },
+    {
+      "name": "Operating Systems",
+      "slug": ""
+    },
+    {
+      "name": "Problem Solving",
+      "slug": ""
+    },
+    {
+      "name": "Public Speaking",
+      "slug": ""
+    },
+    {
+      "name": "Sales",
+      "slug": ""
+    }
   ],
-  "honors": [
-    "GPA: 3.94",
-    "Charles O. Thompson Scholar",
-    "Dean’s List (2023-2025)",
-    "Research Non-Exchange Student, National University of Singapore (Jan 2026 – May 2026)"
+  "experience": [
+    {
+      "company": "Fidelity Investments",
+      "role": "Incoming Software Engineering Intern",
+      "domain": "fidelity.com",
+      "description": "Accepted an offer as an Incoming Software Engineering Intern for Summer 2026, contributing to financial technology at scale.",
+      "duration": "June 2026 - August 2026"
+    },
+    {
+      "company": "WPI",
+      "role": "Software Engineering Intern (Academic Project)",
+      "domain": "wpi.edu",
+      "description": "Designed and built a full-stack web application for WPI's CS Department to streamline student assistant applications, integrating Azure SSO and deploying with Docker, AWS EC2 & RDS for scalability.",
+      "duration": "Oct 2024 - Dec 2024"
+    },
+    {
+      "company": "Comet",
+      "role": "Flight Test Software Consultant Intern",
+      "domain": "comet.com",
+      "description": "Tested a dynamic UI for college discovery and conducted market research to enhance user engagement. Debugged web application issues and provided strategic input for a smooth website launch.",
+      "duration": "June 2022 - October 2022"
+    }
   ],
-  "lastUpdate": "2026-02-21T02:50:57.971Z"
+  "lastUpdate": "2026-02-21T05:56:12.733Z"
 }

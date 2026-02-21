@@ -1,56 +1,68 @@
 [
   {
-    "title": "Process Scheduling Simulation",
-    "tech": "CPU Scheduling, Process Management, C, Data Structures (Linked Lists), Unix Utilities",
-    "bulletPoints": [
-      "Engineered a CPU Scheduler Simulation in C, implementing FIFO, SJF, and Round Robin algorithms with preemption handling using linked list-based job queues.",
-      "Analyzed scheduling algorithm efficiency by measuring response, turnaround, and wait times across five custom workload scenarios.",
-      "Optimized Round Robin performance through time slice execution and job preemption to balance fairness and computational efficiency."
-    ]
-  },
-  {
-    "title": "Virtual Memory Manager Simulation",
-    "tech": "Operating Systems Concepts (Paging, Virtual Memory), C, Memory Management",
-    "bulletPoints": [
-      "Simulated a Virtual Memory Manager in C, implementing page tables, address translation, and process isolation to efficiently manage memory.",
-      "Designed a dynamic page replacement strategy to handle memory capacity and optimize page swapping to disk.",
-      "Ensured robust memory access by supporting mapping, loading, and storing operations with proper read/write permissions and error handling."
-    ]
-  },
-  {
-    "title": "Exploring Linux OS Fundamentals",
-    "tech": "Process Management (fork, waitpid), Linux System Calls, C",
-    "bulletPoints": [
-      "Implemented fork-based process creation and management in Linux, tracking and synchronizing multiple child processes.",
-      "Designed a dynamic file system explorer utilizing Linux system calls (execvp, chdir, getcwd) for command execution and directory navigation.",
-      "Developed multi-process simulations, including a Slug Race, to demonstrate parallel execution and process timing while ensuring portability with Makefiles."
-    ]
-  },
-  {
     "title": "Web Application for Student Assistant Application Process",
-    "tech": "Flask, PostgreSQL, Azure SSO, HTML/CSS, Agile, AWS",
+    "tech": "Flask/PostgreSQL/Microsoft Azure/Amazon Web Services/HTML5/CSS3",
     "bulletPoints": [
-      "Led development of a full-stack web application for WPI's CS Department, streamlining student assistant applications for hundreds of users.",
-      "Integrated Azure Single Sign-On (SSO) for secure authentication and built a personalized recommendation algorithm for SA opportunities.",
-      "Utilized Flask for backend development, PostgreSQL for database management, and responsive HTML/CSS for intuitive user interfaces, following Agile practices."
-    ]
+      "Developed a full-stack web application to streamline WPI's Student Assistant (SA) application process.",
+      "Created intuitive student interfaces with a personalized recommendation algorithm and instructor tools for SA management.",
+      "Integrated Azure SSO and utilized Flask, PostgreSQL, HTML/CSS for a scalable and secure solution."
+    ],
+    "repoUrl": null,
+    "liveUrl": null
   },
   {
     "title": "Machine Learning-Based Facial Expression Recognition Project",
-    "tech": "Deep Learning, Computer Vision, Python, PyTorch, NumPy, Scikit-learn",
+    "tech": "Python/PyTorch/NumPy/Matplotlib/Scikit-learn",
     "bulletPoints": [
-      "Designed and optimized a 4-layer Convolutional Neural Network (CNN) in PyTorch for facial expression recognition on the FER2013 dataset, achieving ~57% accuracy.",
-      "Enhanced model performance through hyperparameter tuning with AdamW optimizer, learning rate scheduling, and batch normalization.",
-      "Conducted comprehensive analysis using confusion matrices, accuracy plots, and misclassified image visualizations to evaluate model reliability."
-    ]
+      "Designed and optimized a 4-layer Convolutional Neural Network (CNN) achieving ~57% accuracy on the FER2013 dataset.",
+      "Experimented with AdamW optimizer, learning rate scheduling, and batch normalization for performance tuning.",
+      "Utilized confusion matrices and visualizations for model evaluation and analysis."
+    ],
+    "repoUrl": null,
+    "liveUrl": null
   },
   {
-    "title": "Multithreaded Sports Field Synchronization",
-    "tech": "Multi-Threading, Concurrency Control, Mutexes, Semaphores, C",
+    "title": "AI-Driven Reversi Game",
+    "tech": "Java/Artificial Intelligence/Game Theory/Object-Oriented Programming",
     "bulletPoints": [
-      "Developed a multi-threaded synchronization system for Worcester Gompei Park, managing concurrent sports games using mutexes, condition variables, and semaphores.",
-      "Implemented fair scheduling and concurrency control to prevent thread starvation across baseball, football, and rugby teams on a shared resource.",
-      "Conducted extensive stress testing with randomized simulations and seed-based reproducibility to verify synchronization correctness and resource allocation."
-    ]
+      "Developed an AI-powered Reversi game in Java with intelligent move validation and dynamic piece-flipping.",
+      "Engineered a strategic AI prioritizing optimal board positions (e.g., corners) for maximum advantage.",
+      "Implemented real-time input handling and automated winner calculation for a smooth gameplay experience."
+    ],
+    "repoUrl": "https://github.com/adityaapatel/APCSA",
+    "liveUrl": null
+  },
+  {
+    "title": "Game Playing AI – Lasker Morris",
+    "tech": "Artificial Intelligence/Adversarial Search",
+    "bulletPoints": [
+      "Developed an AI agent for Lasker Morris using minimax search with alpha-beta pruning.",
+      "Implemented heuristic evaluation functions and progressive deepening for strategic gameplay.",
+      "Ensured compatibility with the CS4341 Referee system for game interaction protocols."
+    ],
+    "repoUrl": null,
+    "liveUrl": null
+  },
+  {
+    "title": "Process Scheduling Simulation",
+    "tech": "C/Operating Systems/Data Structures",
+    "bulletPoints": [
+      "Developed a CPU scheduler simulation implementing FIFO, SJF, and Round Robin algorithms.",
+      "Analyzed performance metrics (response, turnaround, wait time) for various custom workloads.",
+      "Built a Makefile-based C program with automated testing using Unix utilities."
+    ],
+    "repoUrl": null,
+    "liveUrl": null
+  },
+  {
+    "title": "Virtual Memory Manager Simulation",
+    "tech": "C/Operating Systems/Memory Management",
+    "bulletPoints": [
+      "Implemented a virtual memory manager simulating paging and swapping mechanisms for efficient memory handling.",
+      "Designed a page replacement strategy for dynamic allocation and swapping to disk.",
+      "Supported mapping, loading, storing operations with error handling and optimized data structures."
+    ],
+    "repoUrl": null,
+    "liveUrl": null
   }
 ]

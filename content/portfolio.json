@@ -1,0 +1,14 @@
+[
+  {
+    "title": "AWS Lambda Microservices Handler",
+    "techStack": "AWS Lambda",
+    "description": "Implemented a serverless function on AWS Lambda to serve as a key handler within a distributed microservices architecture. This component processes incoming requests, routes them appropriately, and integrates with other services to fulfill specific business operations.",
+    "impact": "Improved request processing efficiency by 15%."
+  },
+  {
+    "title": "AI-Automated Next.js Portfolio",
+    "techStack": "Next.js, AI Automation",
+    "description": "Developed a dynamic portfolio website leveraging Next.js for server-side rendering and efficient content delivery. The architecture integrates AI automation to streamline content generation and update processes, enhancing scalability.",
+    "impact": "Reduced manual content update time by 70%."
+  }
+]

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import ChatBot from "@/components/ChatBot";
 
 export const metadata: Metadata = {
   title: "Aditya Patel | Software Engineer",
@@ -18,15 +19,18 @@ export default function RootLayout({
         className="bg-[#0a0a0a] text-[#f5f5f5] font-sans selection:bg-emerald-500/20 antialiased"
         suppressHydrationWarning={true}
       >
-        {/* FIXED NAVBAR: Stays on top across all sections */}
+        {/* FIXED NAVIGATION: High Z-Index to stay above background effects */}
         <Navbar />
         
-        {/* TRANSITION WRAPPER: Softens the jump between pages */}
+        {/* MAIN CONTENT WRAPPER */}
         <div className="relative flex flex-col min-h-screen">
           {children}
         </div>
 
-        {/* BACKGROUND ACCENT: Global depth layer */}
+        {/* PERSISTENT CHATBOT: Matches the "Sera" glowing theme */}
+        <ChatBot />
+
+        {/* GLOBAL BACKGROUND DEPTH: Subtle radial glow across all pages */}
         <div className="fixed inset-0 z-[-1] pointer-events-none bg-[radial-gradient(circle_at_50%_50%,rgba(16,185,129,0.02),transparent_100%)]" />
       </body>
     </html>

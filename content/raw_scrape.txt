@@ -1,0 +1,900 @@
+
+--- SECTION: https://www.linkedin.com/in/adityaapatel/details/experience/ ---
+0 notifications
+Skip to main content
+Home
+4
+My Network
+Jobs
+Messaging
+7
+Notifications
+Me
+For Business
+
+Rejoin Premium
+
+Aditya Patel
+
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+
+Experience
+
+Incoming Software Engineering Intern
+
+Fidelity Investments · Internship
+
+Feb 2026 - Present · 1 mo
+
+Merrimack, New Hampshire, United States · Hybrid
+
+Start Date: June 1
+
+South Asian Student Association WPI
+
+Part-time · 2 yrs 2 mos
+
+On-site
+
+Past President
+
+Feb 2026 - Present · 1 mo
+
+Serve as an advisor to the current President, ensuring smooth leadership transition, strategic continuity, and ongoing support for executive initiatives and major events.
+
+President
+
+Jan 2025 - Feb 2026 · 1 yr 2 mos
+
+Worcester, Massachusetts, United States
+
+Led event planning, managed social media outreach, and promoted culturally enriching events. Provided key insights from my Indian heritage to shape programming and drive engagement, playing a central role in enhancing the organization’s presence and impact on campus.
+
+2025 SASA Exec
+
+2025 SASA President
+
+Secretary
+
+Jan 2024 - Dec 2024 · 1 yr
+
+Worcester, Massachusetts, United States
+
+Assistant Store Manager
+
+Best Bet Stateline · Part-time
+
+Nov 2022 - Present · 3 yrs 4 mos
+
+Hudson, New Hampshire, United States · On-site
+
+Supported seamless retail operations through efficient organization, meticulous attention to detail, and a commitment to maintaining a well-functioning and welcoming store environment.
+
+ Customer Relationship Management (CRM), Sales and +3 skills
+
+Assistant Operations Manager
+
+Stateline Self Storage · Part-time
+
+Nov 2022 - Present · 3 yrs 4 mos
+
+Hudson, New Hampshire, United States · On-site
+
+Manage daily operations, provide exceptional customer service, ensure facility cleanliness and security, and support administrative tasks to maintain a seamless, customer-focused self-storage experience.
+
+Stateline Self Storage
+
+ Customer Service, Security Monitoring and +3 skills
+
+Brand Ambassador
+
+Comfrt · Freelance
+
+Oct 2022 - Present · 3 yrs 5 mos
+
+Comfrt | The Only Hoodie Worth Wearing
+
+Get 15% off using my code!
+
+Summer Intern
+
+Comet · Internship
+
+Jun 2022 - Sep 2022 · 4 mos
+
+United States
+
+Comet is an all-in-one task manager that helps
+students choose their major, find the right colleges,
+and keep track of their college apps.
+
+-Participated in the early stages of a startup application development, I got various insights into the start-up process, learned about new subjects, and shared suggestions that will ultimately shape the service.
+
+- Conducted a market audience survey to
+understand how to solve a problem related to
+preparing for college.
+
+- Created a web application to display colleges
+in a simple and interactive way.
+
+Comet | College Applications Task Manager
+
+ Programming, Marketing and +3 skills
+
+Profile language
+
+English
+
+Who your viewers also viewed
+
+Private to you
+
+Someone at Forward Advantage
+
+View
+
+Someone at Worcester Polytechnic Institute
+
+View
+
+Software Developer at Besant Technologies Bengaluru (BTM Layout)
+
+View
+
+Someone at Worcester Polytechnic Institute
+
+View
+
+Information Technology Consultant at Worcester Polytechnic Institute
+
+View
+
+About
+
+Accessibility
+
+Talent Solutions
+
+Community Guidelines
+
+Careers
+
+Marketing Solutions 
+
+Privacy & Terms
+
+Ad Choices
+
+Advertising
+
+Sales Solutions
+
+Mobile
+
+Small Business
+
+Safety Center
+
+LinkedIn Corporation © 2026
+
+Questions?
+
+Visit our Help Center.
+
+Manage your account and privacy
+
+Go to your Settings.
+
+Recommendation transparency
+
+Learn more about Recommended Content.
+
+Select language
+
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
+--- SECTION: https://www.linkedin.com/in/adityaapatel/details/projects/ ---
+0 notifications
+Skip to main content
+Home
+4
+My Network
+Jobs
+Messaging
+7
+Notifications
+Me
+For Business
+
+Rejoin Premium
+
+Aditya Patel
+
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+
+Projects
+
+Game Playing AI – Lasker Morris
+
+Feb 2025 – Mar 2025
+
+Associated with Worcester Polytechnic Institute
+
+Worcester Polytechnic Institute (WPI) | CS 4341 – Artificial Intelligence
+
+Developed an AI agent for Lasker Morris, a two-player adversarial board game, as part of the Artificial Intelligence (CS 4341) course at WPI. The project involved implementing minimax search with alpha-beta pruning, heuristic evaluation functions, and strategic game-play enhancements.
+
+Game-Playing AI: Designed and implemented a turn-based game player that competes in self-play, human-vs-AI, and AI-vs-AI settings.
+Minimax with Alpha-Beta Pruning: Optimized search tree traversal to reduce computational complexity while maintaining optimal decision-making.
+Heuristic Evaluation: Developed a custom evaluation function to assess board configurations, balancing offensive and defensive play strategies.
+Progressive Deepening & Move Ordering: Implemented heuristic-driven node expansion to ensure move selection within the given time constraints.
+Referee System Integration: Ensured compatibility with the CS4341 Referee system, following stdin/stdout-based game interaction protocols.
+
+Skills: Adversarial Search (Minimax, Alpha-Beta Pruning), Heuristic Evaluation & Move Ordering, +3 skills
+
+Process Scheduling Simulation
+
+Feb 2025 – Mar 2025
+
+Associated with Worcester Polytechnic Institute
+
+Worcester Polytechnic Institute (WPI) | Feb 2025
+
+Developed a CPU Scheduler Simulation as part of the Operating Systems (CS 3013) course at WPI, implementing three scheduling algorithms—FIFO, Shortest Job First (SJF), and Round Robin (RR)—to analyze their efficiency.
+
+Scheduling Algorithm Implementation: Designed a linked list-based job queue to simulate FIFO, SJF, and RR scheduling with preemption handling.
+Performance Metrics Analysis: Measured response time, turnaround time, and wait time for different workloads to compare policy effectiveness.
+Round Robin Optimization: Implemented time slice execution with job preemption to balance fairness and efficiency.
+Custom Workloads: Developed five unique workload scenarios to test and evaluate real-world scheduling constraints.
+Automated Testing & Debugging: Built a Makefile-based C program, validated results using test cases, and analyzed output using Unix utilities (diff, cmp).
+
+Skills: CPU Scheduling & Process Management, C Programming & Data Structures (Linked Lists), +3 skills
+
+Virtual Memory Manager Simulation
+
+Feb 2025 – Mar 2025
+
+Associated with Worcester Polytechnic Institute
+
+Worcester Polytechnic Institute (WPI) | Feb 2025 - Mar 2025
+
+Developed a Virtual Memory Manager as part of the Operating Systems (CS 3013) course at WPI, simulating paging and swapping mechanisms to manage memory efficiently.
+
+Memory Management: Implemented page tables, address translation, and process isolation in a simulated memory environment.
+Paging & Swapping: Designed a page replacement strategy to dynamically allocate and swap pages to disk when physical memory reached capacity.
+Instruction Handling: Supported mapping, loading, and storing operations with proper read/write permissions for multiple simulated processes.
+Error Handling & Debugging: Ensured valid memory access, prevented illegal operations, and printed informative logs for debugging.
+Performance Optimization: Utilized efficient data structures for page table lookups and optimized swapping mechanisms to minimize overhead.
+
+Skills: Operating Systems Concepts (Paging & Virtual Memory), C Programming & Memory Management, +3 skills
+
+Exploring Linux OS Fundamentals
+
+Jan 2025 – Jan 2025
+
+Associated with Worcester Polytechnic Institute
+
+Worcester Polytechnic Institute (WPI) | Jan 2025
+
+Developed a series of process management and system interaction programs as part of the Operating Systems (CS 3013) course at WPI, exploring process creation, execution, and synchronization in Linux.
+
+Process Management: Implemented fork-based process creation, where parent processes spawned, tracked, and managed multiple child processes.
+Inter-Process Communication: Simulated process hierarchies, parent-child execution order, and process termination strategies.
+Filesystem Interaction: Designed a dynamic file system explorer, allowing processes to navigate directories and execute commands in child processes.
+Parallel Execution & Timing: Developed multi-process simulations, including a Slug Race, where child processes executed independently while the parent tracked execution time.
+Makefile & Debugging: Used Makefiles for compilation, ensured portability, and validated correct execution through logging and structured testing.
+
+Skills: Process Creation & Management (fork, waitpid), Linux System Calls & Command Execution (execvp, chdir, getcwd), +3 skills
+
+Web Application for Student Assistant Application Process
+
+Oct 2024 – Dec 2024
+
+Associated with Worcester Polytechnic Institute
+
+Worked alongside a team to create and implement a comprehensive full-stack web application designed to enhance the Student Assistant (SA) application process for WPI’s Computer Science Department. The platform offered a streamlined and secure solution for students to submit SA applications and enabled instructors to efficiently oversee SA recruitment and management.
+
+Key Features and Contributions
+
+Student-Focused Design:
+Created intuitive interfaces for students to view, apply, and manage their SA applications.
+Developed a personalized recommendation algorithm to rank SA opportunities based on students' academic performance and prior experience.
+
+Instructor Tools:
+- Built functionalities for instructors to post SA positions, review applications, and assign roles to qualified candidates.
+
+Agile Development Process:
+-Followed Agile practices with GitHub for issue tracking, iterative development, and regular progress reviews.
+
+Technical Implementation:
+Integrated Azure Single Sign-On (SSO) for secure authentication and streamlined user access.
+Utilized Flask for backend development, PostgreSQL for database management, and responsive HTML/CSS for user interfaces.
+
+This project enhanced operational efficiency for the department, simplified the recruitment process, and demonstrated my ability to deliver a scalable and user-friendly software solution.
+
+Skills: PostgreSQL, Amazon Web Services (AWS), +9 skills
+
+Other contributors
+
+View all contributors
+
+AI-Powered Reversi Game | Java & Algorithmic Game Development
+
+May 2022 – May 2022
+
+Associated with Bishop Guertin High School
+
+Aditya Patel | AI & Software Development Enthusiast
+
+Built an AI-driven Reversi game in Java, leveraging intelligent move validation, dynamic piece-flipping, and strategic AI decision-making. Originally based on an APCSA Final Project by Mr. Indelicato, I expanded its functionality by integrating an AI opponent that prioritizes optimal board positions and enhances the gameplay experience.
+
+Project Highlights:
+AI-Driven Gameplay: Developed a strategic AI player that intelligently selects moves by prioritizing key board positions (e.g., corners and edges) for maximum advantage.
+- Advanced Move Validation: Implemented real-time legality checks to ensure valid moves, preventing overlaps and rule violations.
+-  Dynamic Piece-Flipping: Designed an efficient piece-flipping algorithm that automatically updates the board state after each move.
+- Interactive User Experience: Supports both human vs. AI and human vs. human matchups with real-time input handling and clear visual representation of the board.
+- Optimized AI Decision-Making: AI scans the board for valid and strategic moves, prioritizing stability while avoiding risky positions.
+
+Skills: Java, AI & Game Theory, +2 skills
+
+Machine Learning-Based Facial Expression Recognition Project
+
+Associated with Worcester Polytechnic Institute
+
+Worcester Polytechnic Institute (WPI) | Feb 2025 - Mar 2025
+
+Developed as part of the Artificial Intelligence (CS 4341) course at WPI, this project focused on deep learning techniques for facial expression recognition using the FER2013 dataset., achieving ~57% accuracy in classifying emotions from images.
+
+CNN Architecture: Designed and optimized a 4-layer Convolutional Neural Network (CNN) with ReLU activation, MaxPooling, and Dropout for improved generalization.
+Hyperparameter Tuning: Experimented with AdamW optimizer, learning rate scheduling, and batch normalization to enhance model performance.
+Training & Evaluation: Fine-tuned epochs, batch size, and augmentations to improve accuracy while preventing overfitting.
+Visualization & Analysis: Created confusion matrices, accuracy plots, and misclassified image visualizations to assess model reliability.
+Tech Stack: Python, PyTorch, NumPy, Matplotlib, Scikit-learn
+
+This project strengthened my expertise in deep learning, computer vision, and model evaluation through hands-on experimentation and optimization.
+
+Skills: Deep Learning, Computer Vision, +3 skills
+
+Other contributors
+
+Multithreaded Sports Field Synchronization
+
+Associated with Worcester Polytechnic Institute
+
+Worcester Polytechnic Institute (WPI) | Jan 2025 - Feb 2025
+
+Developed a multi-threaded synchronization system for managing concurrent sports games at Worcester Gompei Park as part of the Operating Systems (CS 3013) course at WPI. The project focused on thread synchronization, concurrency control, and resource allocation using mutexes, condition variables, and semaphores.
+
+Thread Synchronization: Implemented mutex locks and condition variables to control access to a shared sports field while ensuring safety constraints.
+Concurrency & Fair Scheduling: Prevented thread starvation by enforcing fair scheduling for baseball, football, and rugby teams.
+Dynamic Resource Allocation: Allowed rugby teams to dynamically adjust team sizes while ensuring only one sport type was played at a time.
+Randomized Simulation: Used pseudorandom delays to simulate player arrival, game durations, and resting periods for real-world scheduling variability.
+Testing & Debugging: Conducted extensive stress testing with random seed-based reproducibility to verify synchronization correctness.
+
+Skills: Multi-Threading & Synchronization (Mutexes, Semaphores), Concurrency Control & Resource Allocation, +3 skills
+
+Who your viewers also viewed
+
+Private to you
+
+Someone at Forward Advantage
+
+View
+
+Someone at Worcester Polytechnic Institute
+
+View
+
+Software Developer at Besant Technologies Bengaluru (BTM Layout)
+
+View
+
+Someone at Worcester Polytechnic Institute
+
+View
+
+Information Technology Consultant at Worcester Polytechnic Institute
+
+View
+
+About
+
+Accessibility
+
+Talent Solutions
+
+Community Guidelines
+
+Careers
+
+Marketing Solutions 
+
+Privacy & Terms
+
+Ad Choices
+
+Advertising
+
+Sales Solutions
+
+Mobile
+
+Small Business
+
+Safety Center
+
+LinkedIn Corporation © 2026
+
+Questions?
+
+Visit our Help Center.
+
+Manage your account and privacy
+
+Go to your Settings.
+
+Recommendation transparency
+
+Learn more about Recommended Content.
+
+Select language
+
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
+--- SECTION: https://www.linkedin.com/in/adityaapatel/details/education/ ---
+0 notifications
+Skip to main content
+Home
+4
+My Network
+Jobs
+Messaging
+7
+Notifications
+Me
+For Business
+
+Rejoin Premium
+
+Aditya Patel
+
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+
+Education
+
+Worcester Polytechnic Institute
+
+Bachelor of Science - BS, Computer Science and Data Science
+
+May 2023 – Jun 2027
+
+Grade: Junior
+
+Activities and societies: SASA (South Asian Student Association)- President Position
+
+B.S. Computer Science | Emphasis on Agentic AI and FinTech |
+
+Aspiring to pursue an MBA to complement my technical expertise with advanced business leadership skills.
+
+GPA: 3.94 | Dean’s List 2023-25, Charles O Thompson Scholar
+
+I applied object-oriented design to build modular software systems and developed systems programming and algorithmic skills for optimization. I designed databases using SQL, collaborated on software projects with engineering methodologies, and explored AI and probability for machine learning applications. Mastery of Calculus I-IV supported technical problem-solving and analysis.
+
+Clubs: South Asian Student Association (President)
+
+Led event planning, managed social media outreach, and promoted culturally enriching events. Provided key insights from my Indian heritage to shape programming and drive engagement, playing a central role in enhancing the organization’s presence and impact on campus.
+… more
+
+Skills: Problem Solving, Programming
+
+Aditya Patel Named to Worcester Polytechnic Institute's Fall 2024 Dean's List
+
+National University of Singapore
+
+Research Non-Exchage Student, Research computer
+
+Jan 2026 – May 2026
+
+Grade: Junior
+
+Bishop Guertin High School
+
+High School Diploma, Mathematics and Computer Science
+
+Aug 2019 – Jun 2023
+
+Activities and societies: FIRST Robotics
+
+Programming Honors // (C#)
+AP Computer Science A // (Java)
+AP Statistics
+… more
+
+Skills: Problem Solving, Programming
+
+GitHub - adityaapatel/APCSA: Projects from AP Computer Science A
+
+MY APCSA PROJECTS
+
+National University of Singapore
+
+National University of Singapore
+
+Jan 2026 – May 2026
+
+Grade: Junior
+
+Profile language
+
+English
+
+Who your viewers also viewed
+
+Private to you
+
+Someone at Forward Advantage
+
+View
+
+Someone at Worcester Polytechnic Institute
+
+View
+
+Software Developer at Besant Technologies Bengaluru (BTM Layout)
+
+View
+
+Someone at Worcester Polytechnic Institute
+
+View
+
+Information Technology Consultant at Worcester Polytechnic Institute
+
+View
+
+About
+
+Accessibility
+
+Talent Solutions
+
+Community Guidelines
+
+Careers
+
+Marketing Solutions 
+
+Privacy & Terms
+
+Ad Choices
+
+Advertising
+
+Sales Solutions
+
+Mobile
+
+Small Business
+
+Safety Center
+
+LinkedIn Corporation © 2026
+
+Questions?
+
+Visit our Help Center.
+
+Manage your account and privacy
+
+Go to your Settings.
+
+Recommendation transparency
+
+Learn more about Recommended Content.
+
+Select language
+
+العربية (Arabic)
+বাংলা (Bangla)
+Čeština (Czech)
+Dansk (Danish)
+Deutsch (German)
+Ελληνικά (Greek)
+English (English)
+Español (Spanish)
+فارسی (Persian)
+Suomi (Finnish)
+Français (French)
+हिंदी (Hindi)
+Magyar (Hungarian)
+Bahasa Indonesia (Indonesian)
+Italiano (Italian)
+עברית (Hebrew)
+日本語 (Japanese)
+한국어 (Korean)
+मराठी (Marathi)
+Bahasa Malaysia (Malay)
+Nederlands (Dutch)
+Norsk (Norwegian)
+ਪੰਜਾਬੀ (Punjabi)
+Polski (Polish)
+Português (Portuguese)
+Română (Romanian)
+Русский (Russian)
+Svenska (Swedish)
+తెలుగు (Telugu)
+ภาษาไทย (Thai)
+Tagalog (Tagalog)
+Türkçe (Turkish)
+Українська (Ukrainian)
+Tiếng Việt (Vietnamese)
+简体中文 (Chinese (Simplified))
+正體中文 (Chinese (Traditional))
+--- SECTION: https://www.linkedin.com/in/adityaapatel/recent-activity/all/ ---
+0 notifications total
+Skip to search
+Skip to main content
+Keyboard shortcuts
+Close jump menu
+new feed updates notifications
+Home
+4
+4 new network updates notifications
+My Network
+Jobs
+Messaging
+7
+7 new notifications
+Notifications
+Me
+For Business
+Rejoin Premium
+Aditya Patel
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+Followers
+483
+All activity
+Posts
+Comments
+Images
+Reactions
+Loaded 3 Posts posts
+This post is not eligible to be boosted. 
+Feed post number 1
+Aditya Patel
+Aditya Patel
+   • You
+Verified • You
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+2d • 
+ 
+2 days ago • Visible to anyone on or off LinkedIn
+I’m excited to share that I’ve accepted an offer from Fidelity Investments as a Software Engineering Intern for Summer 2026 in Merrimack, NH!
+
+I’m incredibly grateful for the opportunity to contribute to a company that is shaping the future of financial technology at scale. I’m looking forward to learning, building, and collaborating with talented engineers while continuing to grow at the intersection of technology and finance.
+
+A special thank you to my recruiter, Alvin D., for making the process smooth and supportive from start to finish. I’m also deeply grateful to my family for their constant encouragement and belief in me. None of this would be possible without them.
+
+Excited for what’s ahead!
+
+hashtag
+#Fidelity 
+hashtag
+#SoftwareEngineering 
+hashtag
+#FinTech 
+hashtag
+#Internship 
+hashtag
+#Summer2026
+…more
+Starting a New Position
+103
+Akshay Shinde and 102 others
+25 comments
+Like
+Comment
+Repost
+Send
+7,488 impressions
+View analytics
+Promote this post to reach people who matter to you.
+Boost
+Feed post number 2
+Aditya Patel
+Aditya Patel
+   • You
+Verified • You
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+4mo • Edited • 
+ 
+4 months ago • Edited • Visible to anyone on or off LinkedIn
+My first LinkedIn post and what an experience to share!
+
+Day 2 of 
+hashtag
+#BostonFinTechWeek was an incredible introduction to the world of fintech conferences. As a student passionate about where finance and technology intersect, I was energized by the chance to both learn from the stage and connect in person with some of the brightest minds shaping the future.
+
+I had the privilege of meeting:
+Karan Kashyap (Posh)
+Biju Kk (Fidelity Center for Applied Technology)
+Evan Schnidman (Fidelity Labs)
+Vijay Reddiar (Citizens Bank)
+Michael Degnan (Darrery Capital)
+Peter Tsahalis (Wells Fargo)
+Emily O'Connor (Invisible Technologies)
+
+And I was inspired listening to leading voices like:
+Mike Massaro (CEO, Flywire)
+David Jegen (F-Prime & Fintech Sandbox)
+Harshul Sanghi (WillowTree Investments)
+Castleigh Johnson (My Home Pathway) 
+
+The panels touched on themes shaping the future of finance, especially
+ - AI agents in banking and how automation is redefining customer experiences.
+ - Stablecoins and their role in unlocking the next era of global payments.
+ - Intelligent credit models, Emily O'Connor’s panel! where real-time data and AI are transforming how consumers and lenders interact. The evolution of wealthtech in an AI-driven world.
+
+I walked away with new insights, valuable connections, and a clearer vision of what the next decade of fintech could look like: more intelligent, decentralized, and human-centered. 
+
+Thank you to Fintech Sandbox for curating such an inspiring day. Boston truly is at the heart of fintech innovation, and I couldn’t have asked for a better first conference experience.
+
+hashtag
+#BostonFinTechWeek 
+hashtag
+#Fintech 
+hashtag
+#AI 
+hashtag
+#Stablecoins 
+hashtag
+#FutureofFinance 
+hashtag
+#BFTW25
+…more
+Activate to view larger image,
+63
+2 comments
+Insightful
+Comment
+Repost
+Send
+2,345 impressions
+View analytics
+This post is not eligible to be boosted. 
+Feed post number 3
+Aditya Patel
+Aditya Patel
+   • You
+Verified • You
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+Computer Science @ WPI | Incoming SWE Intern @ Fidelity | Agentic AI & FinTech | Interest In Scalable SaaS & Financial Innovation |
+3yr • 
+ 
+3 years ago • Visible to anyone on or off LinkedIn
+I’m happy to share that I have took a new position as Summer Intern at Comet!
+Starting a New Position
+1
+1 comment
+Like
+Comment
+Repost
+Send
+People you may know
+People you may know
+
+From your school
+From your school
+
+Lucas Zaki
+Lucas Zaki
+Electrical & Computer Engineering Student (WPI) | Embedded Systems & Firmware | C/C++ | RTOS (Zephyr/FreeRTOS)
+Electrical & Computer Engineering Student (WPI) | Embedded Systems & Firmware | C/C++ | RTOS (Zephyr/FreeRTOS)
+Connect
+Curt Carlson, Ph.D.
+Curt Carlson, Ph.D.
+Professor of Practice, Northeastern University and
+Former CEO, SRI International in Silicon Valley
+Professor of Practice, Northeastern University and Former CEO, SRI International in Silicon Valley
+Connect
+Matt Hagger
+Matt Hagger
+Just making things on the web
+Just making things on the web
+Connect
+Adeel Syed
+Adeel Syed
+Student at Worcester Polytechnic
+Student at Worcester Polytechnic
+Connect
+Gavin George
+Gavin George
+Associate Data Engineer @ Fidelity Investments | MS Management & BS Business (FinTech & Data Science) from WPI
+Associate Data Engineer @ Fidelity Investments | MS Management & BS Business (FinTech & Data Science) from WPI
+Connect
+Show more
+About
+Accessibility
+Help Center
+Privacy & Terms
+Ad Choices
+Advertising
+Business Services
+Get the LinkedIn app
+More
+ LinkedIn Corporation © 2026
+Status is online
+Messaging
+You are on the messaging overlay. Press enter to open the list of conversations.
+Compose message
+You are on the messaging overlay. Press enter to open the list of conversations.

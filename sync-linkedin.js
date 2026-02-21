@@ -1,43 +1,49 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
-require('dotenv').config({ path: '.env.local' });
 
-async function humanLeveledScrape() {
-  console.log("📡 INITIATING HUMAN-MIMICRY SYNC...");
-  
-  const browser = await chromium.launch({ headless: false }); // LinkedIn hates headless
-  const context = await browser.newContext();
+async function scrapeDeepProfile() {
+  const authFile = 'state.json';
+  const urls = [
+    'https://www.linkedin.com/in/adityaapatel/details/experience/',
+    'https://www.linkedin.com/in/adityaapatel/details/projects/',
+    'https://www.linkedin.com/in/adityaapatel/details/education/',
+    'https://www.linkedin.com/in/adityaapatel/recent-activity/all/'
+  ];
+
+  const browser = await chromium.launch({ headless: false });
+  const context = await browser.newContext({ storageState: authFile });
   const page = await context.newPage();
 
   try {
-    // Navigate and mimic human delay
-    await page.goto('https://www.linkedin.com/in/adityaapatel/');
-    await page.waitForTimeout(Math.floor(Math.random() * 3000) + 2000); // Random human-like pause
+    let combinedData = "";
 
-    // Extract the profile data directly from the rendered DOM
-    const profileData = await page.evaluate(() => {
-      return {
-        name: document.querySelector('.text-heading-xlarge')?.innerText,
-        headline: document.querySelector('.text-body-medium')?.innerText,
-        about: document.querySelector('.pv-shared-text-with-see-more')?.innerText,
-      };
-    });
+    for (const url of urls) {
+      console.log(`📡 NAVIGATING TO: ${url}`);
+      await page.goto(url, { waitUntil: 'domcontentloaded' });
+      
+      // Wait for LinkedIn's main content area to render
+      await page.waitForSelector('.scaffold-layout__main', { timeout: 10000 }).catch(() => null);
+      
+      // Mimic human behavior: slow scroll to trigger lazy loading
+      await page.evaluate(() => window.scrollBy(0, window.innerHeight));
+      await page.waitForTimeout(2000); 
 
-    console.log("🧠 DATA EXTRACTED: Synchronizing WPI and Fidelity milestones...");
+      // Extract raw text for AI processing
+      const sectionText = await page.innerText('body');
+      combinedData += `\n--- SECTION: ${url} ---\n${sectionText}`;
+    }
+
+    console.log("🧠 ANALYZING ALL SECTIONS...");
+    // Pass 'combinedData' to your generate-portfolio.js logic here
     
-    // Write your verified data to disk
-    fs.writeFileSync('./content/linkedin_sync.json', JSON.stringify({
-      status: "INIT_SYSTEM: Incoming SWE Intern @ Fidelity // Summer 2026",
-      bioSnippet: "WPI CS (3.94 GPA). Incoming SWE Intern at Fidelity. Charles O. Thompson Scholar.",
-      lastUpdate: new Date().toISOString()
-    }, null, 2));
+    fs.writeFileSync('./content/raw_scrape.txt', combinedData);
+    console.log("✅ SUCCESS: All 4 sections scraped and saved to raw_scrape.txt.");
 
-    console.log("✅ SYNC SUCCESSFUL.");
   } catch (err) {
-    console.error("❌ SCRAPE FAILED:", err.message);
+    console.error("❌ DEEP SYNC FAILED:", err.message);
   } finally {
     await browser.close();
   }
 }
 
-humanLeveledScrape();
+scrapeDeepProfile();
